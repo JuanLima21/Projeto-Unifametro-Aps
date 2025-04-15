@@ -76,15 +76,16 @@ public class Aps {
         
         // TOPICOS CITADOS NA "APS SUGESTÕES DE FUNCIONALIDADE"
         switch (opcao) {
-            case 1 -> mostrarDisparidadeSalarial();
-                      break;
-            case 2 -> mostrarCargosLideranca();
-                      break;
-            case 3 -> mostrarViolenciaDomestica();
-                      break;
-            case 4 -> mostrarAcessoEducacao();
-                break;
+            case 1 -> mostrarDisparidadeSalarial(1) 
+            
+            case 2 -> mostrarCargosLideranca(2);
+
+            case 3 -> mostrarViolenciaDomestica(3);
+
+            case 4 -> mostrarAcessoEducacao(4);
+
             default -> System.out.println("Opção inválida!, Tente novamente");
+            while (selecao != 4);
         }
         
         scanner.close();
