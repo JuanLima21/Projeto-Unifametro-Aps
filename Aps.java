@@ -9,25 +9,28 @@ public class Aps {
 
         System.out.println("Boas vindas ! ");
         System.out.println("O debate sobre igualdade de género é crucial para construir uma sociedade mais justa e equitativa, onde todos, independentemente do gênero, possam ter as mesmas oportunidades e direitos. A igualdade de género não é apenas um objetivo social, mas também um fator essencial para o desenvolvimento económico e social, promovendo a participação plena das mulheres em todos os níveis da sociedade. O debate sobre igualdade de género é crucial para construir uma sociedade mais justa e equitativa, onde todos, independentemente do gênero, possam ter as mesmas oportunidades e direitos. A igualdade de género não é apenas um objetivo social, mas também um fator essencial para o desenvolvimento económico e social, promovendo a participação plena das mulheres em todos os níveis da sociedade." );
-        //MENSAGENS ACIMA TROCADAS
-      System.out.println( "Escolha a uma opção que deseje ler mais sobre : "); //FRASE FICTICIA (TROCAR)
-      
+       
+      System.out.println( "Escolha a uma opção que deseje ler mais sobre : ");
+      //ULTIMOS ACERTOS(MENSAGENS TROCADAS E COD CONFERIDO)
 
-      // DEFINIR ESTRUTURA DE REPETIÇÃO PARA SELEÇÃO NO MENU USANDO SWITCH
+      // SWITCH TROCADO FRASES E ADICIONADO BREAK
         System.out.println("Escolha um Topico para ler mais");
         System.out.println*("1- Conceitos de Feminismo");
         System.out.println("2- Machismo estrutural");
         System.out.println("3- Patriarcado");
         int selecao = sc.nextInt();
-        System.out.println("As consequências dos conceitos de feminismo, machismo estrutural e patriarcado se refletem em desigualdades profundas nas relações sociais, políticas e econômicas, perpetuando discriminação de gênero e limitando o potencial individual e coletivo.")
-
+       
       switch (selecao) {
-                case 1 -> System.out.println("menu 1");
-                case 2 -> System.out.println(" menu 2 ! ");
-                case 3 -> System.out.println("Menu 3 ");
-                default -> System.out.println ("Opção inválida!, Tente novamente")
-            }
-         // while (selecao != 3); (APARTIR DE 3 IRA GERAR O DEFAULT)
+                case 1 -> System.out.println("1- Conceito de Feminismo");
+                break;
+                case 2 -> System.out.println("2- Machismo estutural");
+                break;
+                case 3 -> System.out.println("3- Patriarcado");
+                break;
+                default -> System.out.println ("Opção inválida!, Tente novamente.")
+                while (selecao != 3);
+                }
+             System.out.println("As consequências dos conceitos de feminismo, machismo estrutural e patriarcado se refletem em desigualdades profundas nas relações sociais, políticas e econômicas, perpetuando discriminação de gênero e limitando o potencial individual e coletivo.")
             //MOSTRAR DISPARIDADE SALARIAL
            public static void mostrarDisparidadeSalarial() {
         System.out.println("== Disparidade Salarial ==\n");
@@ -78,15 +81,16 @@ public class Aps {
         int opcao = scanner.nextInt();
         
         // TOPICOS CITADOS NA "APS SUGESTÕES DE FUNCIONALIDADE"
+        //SWITCH TROCADO E REPARADO ERROS
         switch (opcao) {
             case 1 -> mostrarDisparidadeSalarial("Topico 1") 
-            
+            break;
             case 2 -> mostrarCargosLideranca("Topico 2");
-
+            break;
             case 3 -> mostrarViolenciaDomestica("Topico 3");
-
+            break; 
             case 4 -> mostrarAcessoEducacao("Topico 4");
-
+            break;
             default -> System.out.println("Opção inválida!, Tente novamente");
             while (selecao != 4);
         }
