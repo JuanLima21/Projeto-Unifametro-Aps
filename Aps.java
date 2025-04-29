@@ -8,15 +8,18 @@ public class Aps {
         Scanner sc= new Scanner(System.in);
 
         System.out.println("Boas vindas ! ");
-        System.out.println("Mensagem sobre igualdade de genero e importancia"); // TROCAR POR MENSAGEM CORRETA
-
+        System.out.println("O debate sobre igualdade de género é crucial para construir uma sociedade mais justa e equitativa, onde todos, independentemente do gênero, possam ter as mesmas oportunidades e direitos. A igualdade de género não é apenas um objetivo social, mas também um fator essencial para o desenvolvimento económico e social, promovendo a participação plena das mulheres em todos os níveis da sociedade. O debate sobre igualdade de género é crucial para construir uma sociedade mais justa e equitativa, onde todos, independentemente do gênero, possam ter as mesmas oportunidades e direitos. A igualdade de género não é apenas um objetivo social, mas também um fator essencial para o desenvolvimento económico e social, promovendo a participação plena das mulheres em todos os níveis da sociedade." );
+        //MENSAGENS ACIMA TROCADAS
       System.out.println( "Escolha a uma opção que deseje ler mais sobre : "); //FRASE FICTICIA (TROCAR)
       
 
       // DEFINIR ESTRUTURA DE REPETIÇÃO PARA SELEÇÃO NO MENU USANDO SWITCH
-        System.out.println("opçoes para ler mais 1- mulheerr ;; 2 - homem "); //OPÇÕES FICTICIAS (TROCAR)
+        System.out.println("Escolha um Topico para ler mais");
+        System.out.println*("1- Conceitos de Feminismo");
+        System.out.println("2- Machismo estrutural");
+        System.out.println("3- Patriarcado");
         int selecao = sc.nextInt();
-
+        System.out.println("As consequências dos conceitos de feminismo, machismo estrutural e patriarcado se refletem em desigualdades profundas nas relações sociais, políticas e econômicas, perpetuando discriminação de gênero e limitando o potencial individual e coletivo.")
 
       switch (selecao) {
                 case 1 -> System.out.println("menu 1");
