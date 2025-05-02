@@ -100,7 +100,7 @@ public class Aps {
     }
      //Topico 5
     public static void exibirDados() {
-        System.out.println("Dados Atualizados sobre Desigualdade de Gênero e Acesso à Educação no Brasil (2024):\n");
+        System.out.println("Dados Atualizados sobre Desigualdade de Gênero e Acesso a Educação no Brasil");
 
         // Disparidade Salarial
         System.out.println("1. Disparidade Salarial:");
