@@ -6,7 +6,7 @@ public class Aps {
 
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-
+        //Topico 1
         System.out.println("Boas vindas ! ");
         System.out.println("O debate sobre igualdade de género é crucial para construir uma sociedade mais justa e equitativa, onde todos, independentemente do gênero, possam ter as mesmas oportunidades e direitos. A igualdade de género não é apenas um objetivo social, mas também um fator essencial para o desenvolvimento económico e social, promovendo a participação plena das mulheres em todos os níveis da sociedade. O debate sobre igualdade de género é crucial para construir uma sociedade mais justa e equitativa, onde todos, independentemente do gênero, possam ter as mesmas oportunidades e direitos. A igualdade de género não é apenas um objetivo social, mas também um fator essencial para o desenvolvimento económico e social, promovendo a participação plena das mulheres em todos os níveis da sociedade." );
        
@@ -19,7 +19,7 @@ public class Aps {
         System.out.println("2- Machismo estrutural");
         System.out.println("3- Patriarcado");
         int selecao = sc.nextInt();
-       
+
       switch (selecao) {
                 case 1 -> System.out.println("1- Conceito de Feminismo");
                 break;
@@ -31,7 +31,8 @@ public class Aps {
                 while (selecao != 3);
                 }
              System.out.println("As consequências dos conceitos de feminismo, machismo estrutural e patriarcado se refletem em desigualdades profundas nas relações sociais, políticas e econômicas, perpetuando discriminação de gênero e limitando o potencial individual e coletivo.")
-            //MOSTRAR DISPARIDADE SALARIAL
+            //MOSTRAR DISPARIDADE SALARIAL 
+        
            public static void mostrarDisparidadeSalarial() {
         System.out.println("== Disparidade Salarial ==\n");
         System.out.println("De acordo com dados recentes, as mulheres ganham em média 20% menos que os homens para cargos semelhantes.");
@@ -79,7 +80,7 @@ public class Aps {
         System.out.print("Digite o número do tópico: ");
         
         int opcao = scanner.nextInt();
-        
+        //Topico 4
         // TOPICOS CITADOS NA "APS SUGESTÕES DE FUNCIONALIDADE"
         //SWITCH TROCADO E REPARADO ERROS
         switch (opcao) {
@@ -97,34 +98,47 @@ public class Aps {
         
         scanner.close();
     }
-
+     //Topico 5
     public static void exibirDados() {
         System.out.println("Dados Atualizados sobre Desigualdade de Gênero e Acesso à Educação no Brasil (2024):\n");
 
         // Disparidade Salarial
         System.out.println("1. Disparidade Salarial:");
-        System.out.println("- Mulheres recebem, em média, 20,7% a menos que os homens no mesmo cargo. Em cargos de direção e gerência, a diferença chega a 27%. Mulheres negras ganham, em média, 68% do salário de homens não negros. Apenas 32,6% das empresas possuem políticas de incentivo à contratação de mulheres.");
+        System.out.println("- Mulheres recebem, em média, 20,7% a menos que os homens no mesmo cargo.");
+        System.out.println("Em cargos de direção e gerência, a diferença chega a 27%.");
+        System.out.println("Mulheres negras ganham, em média, 68% do salário de homens não negros.");
+        System.out.println("Apenas 32,6% das empresas possuem políticas de incentivo à contratação de mulheres.");
 
         // Cargos de Liderança
         System.out.println("2. Cargos de Liderança:");
-        System.out.println("- Mulheres ocupam 38% dos cargos de liderança no Brasil. Apenas 28% das mulheres estão em cargos de alta liderança (diretoria e C-Level). Em cargos parlamentares, as mulheres representam 17,9% dos deputados federais. Nos ministérios, apenas 9 dos 38 cargos com status ministerial são ocupados por mulheres.");
+        System.out.println("- Mulheres ocupam 38% dos cargos de liderança no Brasil.");
+        System.out.println("Apenas 28% das mulheres estão em cargos de alta liderança (diretoria e C-Level).");
+        System.out.println("Em cargos parlamentares, as mulheres representam 17,9% dos deputados federais.");
+        System.out.println("Nos ministérios, apenas 9 dos 38 cargos com status ministerial são ocupados por mulheres.");
 
 
         // Violência Doméstica
         System.out.println("3. Violência Doméstica:");
-        System.out.println("- 30% das brasileiras já sofreram algum tipo de violência doméstica ou familiar. Nos estados do Rio de Janeiro, Rondônia e Amazonas, os índices chegam a 36%, 37% e 38%, respectivamente. 52% das vítimas afirmam que o agressor era marido ou companheiro. 27% das mulheres que sofreram violência solicitaram medida protetiva.");
+        System.out.println("- 30% das brasileiras já sofreram algum tipo de violência doméstica ou familiar.");
+        System.out.println("Nos estados do Rio de Janeiro, Rondônia e Amazonas, os índices chegam a 36%, 37% e 38%, respectivamente.");
+        System.out.println("52% das vítimas afirmam que o agressor era marido ou companheiro.");
+        System.out.println("27% das mulheres que sofreram violência solicitaram medida protetiva.");
 
         // Acesso à Educação
         System.out.println("4. Acesso à Educação:");
-        System.out.println("- Mulheres representam 60,3% dos estudantes no último ano da faculdade. Elas concluem o ensino superior em maior proporção que os homens. No entanto, apenas 22% das mulheres concluem cursos na área de ciência e tecnologia. Mulheres brancas têm taxa de conclusão de ensino superior de 29%, enquanto mulheres negras têm 14,7%. O analfabetismo funcional atinge cerca de 27% da população brasileira.");
+        System.out.println("- Mulheres representam 60,3% dos estudantes no último ano da faculdade. ");
+        System.out.println("Elas concluem o ensino superior em maior proporção que os homens. ");
+        System.out.println("No entanto, apenas 22% das mulheres concluem cursos na área de ciência e tecnologia.");
+        System.out.println("Mulheres brancas têm taxa de conclusão de ensino superior de 29%, enquanto mulheres negras têm 14,7%.");
+        System.out.println("O analfabetismo funcional atinge cerca de 27% da população brasileira.");
     }
 }
-
-
-
-
-
- 
-
+        //Topico 6
+        public static void combateAoMachismo(){
+        System.out.println("Combater o machismo é um compromisso diário com a igualdade, o respeito e a dignidade de todas as pessoas. Significa escutar, aprender e reconhecer que atitudes naturalizadas muitas vezes sustentam desigualdades. É dar voz às mulheres, questionar piadas ofensivas, apoiar quem denuncia e ensinar às novas gerações que ninguém é inferior ou superior por causa do gênero. Uma sociedade justa começa quando todos e todas têm os mesmos direitos e oportunidades. O machismo mata — e o silêncio também. Vamos juntos mudar essa história.")
     }
+        //Topico 7
+        public static void mensagemFinal(){
+            system.out.println("Muito obrigado sua presença e dedicação fazem toda a diferença. Aqui tivemos conscientização sobre a Luta das Mulheres na Sociedade")
+        }
 }
