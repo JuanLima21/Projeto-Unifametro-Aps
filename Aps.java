@@ -96,6 +96,30 @@ public class Aps {
         }
         
         scanner.close();
+    }
+
+    public static void exibirDados() {
+        System.out.println("Dados Atualizados sobre Desigualdade de Gênero e Acesso à Educação no Brasil (2024):\n");
+
+        // Disparidade Salarial
+        System.out.println("1. Disparidade Salarial:");
+        System.out.println("- Mulheres recebem, em média, 20,7% a menos que os homens no mesmo cargo. Em cargos de direção e gerência, a diferença chega a 27%. Mulheres negras ganham, em média, 68% do salário de homens não negros. Apenas 32,6% das empresas possuem políticas de incentivo à contratação de mulheres.");
+
+        // Cargos de Liderança
+        System.out.println("2. Cargos de Liderança:");
+        System.out.println("- Mulheres ocupam 38% dos cargos de liderança no Brasil. Apenas 28% das mulheres estão em cargos de alta liderança (diretoria e C-Level). Em cargos parlamentares, as mulheres representam 17,9% dos deputados federais. Nos ministérios, apenas 9 dos 38 cargos com status ministerial são ocupados por mulheres.");
+
+
+        // Violência Doméstica
+        System.out.println("3. Violência Doméstica:");
+        System.out.println("- 30% das brasileiras já sofreram algum tipo de violência doméstica ou familiar. Nos estados do Rio de Janeiro, Rondônia e Amazonas, os índices chegam a 36%, 37% e 38%, respectivamente. 52% das vítimas afirmam que o agressor era marido ou companheiro. 27% das mulheres que sofreram violência solicitaram medida protetiva.");
+
+        // Acesso à Educação
+        System.out.println("4. Acesso à Educação:");
+        System.out.println("- Mulheres representam 60,3% dos estudantes no último ano da faculdade. Elas concluem o ensino superior em maior proporção que os homens. No entanto, apenas 22% das mulheres concluem cursos na área de ciência e tecnologia. Mulheres brancas têm taxa de conclusão de ensino superior de 29%, enquanto mulheres negras têm 14,7%. O analfabetismo funcional atinge cerca de 27% da população brasileira.");
+    }
+}
+
 
 
 
