@@ -119,12 +119,3 @@ public class Aps {
         System.out.println("- Mulheres representam 60,3% dos estudantes no último ano da faculdade. Elas concluem o ensino superior em maior proporção que os homens. No entanto, apenas 22% das mulheres concluem cursos na área de ciência e tecnologia. Mulheres brancas têm taxa de conclusão de ensino superior de 29%, enquanto mulheres negras têm 14,7%. O analfabetismo funcional atinge cerca de 27% da população brasileira.");
     }
 }
-
-
-
-
-
- 
-
-    }
-}
